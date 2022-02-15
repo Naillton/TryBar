@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(19, 19, 19) !important;
+}
+
+.bebidas-img {
+  width: 200px;
+  height: 300px;
+  border-radius: 100%;
+  margin-top: 30px;
+}
+
+#container-bebidas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 1100px;
+}
+
+.bebidas {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(255, 217, 0);
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+#img-bar {
+  width: 100%;
+}
+
+#titulo-bar {
+  position: absolute;
+  color: rgb(255, 217, 0);
+  margin: 15% 40%;
+  font-size: 100px;
+}
+
+#subtitulo-bar {
+  position: absolute;
+  color: rgb(255, 217, 0);
+  margin: 35% 26% !important;
+  font-size: 30px !important;
+  background-color: rgba(0, 0, 0, 0.678);
+  border-radius: 5px;
+  width: 850px !important;
+  padding: 8px !important;
+}
+
+#formulario {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px;
+}
+
+footer {
+  color: rgb(255, 217, 0);
+  text-align: center;
+  padding: 40px;
+}
+
+.btn {
+  margin-left: 20px !important;
+  border-radius: 5px !important;
+}
+
+.form-control {
+  border-radius: 5px !important;
+}
+
+#sugestao-drinks {
+  text-align: center;
+  color: rgb(255, 217, 0);
+  font-size: 30px;
+}
+
+#nome-drink, #copo, #instrucoes, #titulo-copo {
+  text-align: center;
+  color: rgb(255, 217, 0);
+}
+
+#copo, #ingredientes-doses, #instrucoes, #titulo-copo {
+  font-size: 25px;
+}
+
+#img-drink-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+#instrucoes {
+  margin: 0px 250px;
+}
+
+#img-drink {
+  width: 400px;
+  border-radius: 10px;
+}
+
+#ingredientes-doses {
+display: flex;
+justify-content: center;
+color: rgb(255, 217, 0);
+margin: 30px;
+}
+
+#ingredientes {
+  margin-right: 20px;
+}
+
+@media  screen and (min-width: 320px) and (max-width: 900px) {
+  #subtitulo-bar {
+    position: absolute;
+    color: rgb(255, 217, 0);
+    margin: 35% 26% !important;
+    font-size: 15px !important;
+    background-color: rgba(0, 0, 0, 0.678);
+    border-radius: 5px;
+    width: 70% !important;
+    padding: 8px !important;
+  }
+
+  #titulo-bar {
+    position: absolute;
+    color: rgb(255, 217, 0);
+    margin: 15% 40%;
+    font-size: 40px;
+  }
+}
+
+@media  screen and (min-width: 320px) and (max-width: 660px) {
+  .bebidas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .conteudo {
+    margin-top: 1600px;
+  }
+
+  #instrucoes {
+    margin: 0px auto;
+  }
+}
+
+@media  screen and (min-width: 640px) and (max-width: 1146px) {
+  #titulo-bar {
+    font-size: 70px;
+  }
+
+
+#subtitulo-bar {
+  font-size: 30px !important;
+  width: 75% !important;
+}
+}

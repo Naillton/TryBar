@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trybar</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="script.js" defer></script>
+  <script src="insereItem.js" defer></script>
+</head>
+<body>    
+  <main>
+    <section>
+      <h1 id="titulo-bar">Trybar</h1>
+      <p id="subtitulo-bar"><em>"Diga-me com quem andas que te direi quantas cervejas levar!"</em></p>
+      <img id="img-bar" src="/img/bar1.jpg">      
+    </section>
+    <section id="container-bebidas">      
+      <div id="vodka" class="bebidas"><h2 class="titulo-bebida">Vodka</h2><a href="#sugestao-drinks"><img class="bebidas-img" src="/img/vodka.jpg"></a></div>
+      <div id="gin" class="bebidas"><h2 class="titulo-bebida">Gin</h2><a href="#sugestao-drinks"><img class="bebidas-img" src="/img/gin.jpg"></a></div>
+      <div id="whisky" class="bebidas"><h2 class="titulo-bebida">Whisky</h2><a href="#sugestao-drinks"><img class="bebidas-img" src="/img/whisky.jpg"></a></div>
+      <div id="cachaça" class="bebidas"><h2 class="titulo-bebida">Cachaça</h2><a href="#sugestao-drinks"><img class="bebidas-img" src="/img/cachaca.jpg"></a></div>
+      <div id="cerveja" class="bebidas"><h2 class="titulo-bebida">Cerveja</h2><a href="#sugestao-drinks"><img class="bebidas-img" src="/img/cerveja.jpg"></a></div>
+      <div id="rum" class="bebidas"><h2 class="titulo-bebida">Rum</h2><a href="#sugestao-drinks"><img class="bebidas-img" src="/img/rum.jpg"></a></div>      
+    </section>
+    <div class="conteudo">
+      <section id="sugestao-drinks">
+        <ol id="lista-sugestao">Sugestão de drinks:</ol>
+      </section>
+      <section id="formulario">
+        <form>
+          <div class="input-group mb-3">
+            <input type="text" minlength="3" maxlength="50" id="input-pesquisa" placeholder="Digite aqui seu cocktail" class="form-control">
+            <button id="botao-pesquisar" class="btn btn-outline-warning">Buscar</button>
+          </div>        
+        </form>
+      </section>
+      <section id="receita">
+        <h1 id="nome-drink"></h1>
+        <div id="img-drink-container">
+          <img src="" id="img-drink">
+        </div>
+        <p id="titulo-copo"><em>Tipo de copo:</em></p>
+        <p id="copo"></p>
+        <div id="ingredientes-doses">
+          <ol id="ingredientes"><em>Ingredientes:</em></ol>
+          <ol id="doses"><em>Dosagem:</em></ol>
+        </div>
+        <p id="instrucoes"></p>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p>Site desenvolvido pelos alunos cachaceiros da Trybe &#169;</p>
+  </footer>
+</body>
+</html>

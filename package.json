@@ -1,0 +1,23 @@
+{
+  "name": "projeto-bonus-trybar",
+  "version": "1.0.0",
+  "description": "Projeto bonus realizado durante o curso da Trybe.",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduMLAlmeida/projeto-bonus-trybar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduMLAlmeida/projeto-bonus-trybar/issues"
+  },
+  "homepage": "https://github.com/EduMLAlmeida/projeto-bonus-trybar#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}

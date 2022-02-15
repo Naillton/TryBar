@@ -1,0 +1,3 @@
+# TryBar é um projeto desenvolvido por mim e meus colegas Eduardo e Thais, no projeto usamos algumas habilidades adquiridas ao longo do curso de desenvolvimento da trybe. O trybar nasceu depois de algumas pesquisas por endpoints e o endpoint do thecocktaildb foi o que nos chamou mais atenção então decidimos usá-lo.
+
+TryBar is a project developed by me and my colleagues Eduardo and Thais, in the project we used some skills acquired during the trybe development course. The trybar was born after some searches for endpoints and thecocktaildb endpoint was what caught our attention so we decided to use it.
